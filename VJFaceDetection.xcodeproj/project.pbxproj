@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F291D839C5005452F073A90 /* libPods-VJFaceDetection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B62404455D99EEAE6C150317 /* libPods-VJFaceDetection.a */; };
+		70037F8E20D3C7C700E56449 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 70037F8C20D3C7C700E56449 /* GPUImageBeautifyFilter.m */; };
+		70037F9120D3C7FB00E56449 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70037F8F20D3C7FB00E56449 /* CameraViewController.m */; };
+		70AE27AB20D245EA00C613D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE27AA20D245EA00C613D7 /* AppDelegate.m */; };
+		70AE27B120D245EA00C613D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AE27AF20D245EA00C613D7 /* Main.storyboard */; };
+		70AE27B420D245EA00C613D7 /* VJFaceDetection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70AE27B220D245EA00C613D7 /* VJFaceDetection.xcdatamodeld */; };
+		70AE27B620D245EB00C613D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AE27B520D245EB00C613D7 /* Assets.xcassets */; };
+		70AE27B920D245EB00C613D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AE27B720D245EB00C613D7 /* LaunchScreen.storyboard */; };
+		70AE27BC20D245EB00C613D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE27BB20D245EB00C613D7 /* main.m */; };
+		70C766B120D8A3A900197F07 /* ProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C766B020D8A3A900197F07 /* ProcessManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49392A9DC5F40143EA16C942 /* Pods-VJFaceDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VJFaceDetection.release.xcconfig"; path = "Pods/Target Support Files/Pods-VJFaceDetection/Pods-VJFaceDetection.release.xcconfig"; sourceTree = "<group>"; };
+		70037F8C20D3C7C700E56449 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		70037F8D20D3C7C700E56449 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		70037F8F20D3C7FB00E56449 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		70037F9020D3C7FB00E56449 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		70AE27A620D245EA00C613D7 /* VJFaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VJFaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE27A920D245EA00C613D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70AE27AA20D245EA00C613D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70AE27B020D245EA00C613D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70AE27B320D245EA00C613D7 /* VJFaceDetection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VJFaceDetection.xcdatamodel; sourceTree = "<group>"; };
+		70AE27B520D245EB00C613D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70AE27B820D245EB00C613D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70AE27BA20D245EB00C613D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AE27BB20D245EB00C613D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70C766AF20D8A3A900197F07 /* ProcessManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcessManager.h; sourceTree = "<group>"; };
+		70C766B020D8A3A900197F07 /* ProcessManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProcessManager.m; sourceTree = "<group>"; };
+		B62404455D99EEAE6C150317 /* libPods-VJFaceDetection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VJFaceDetection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C94B0DC6FA7591EEC6D93F /* Pods-VJFaceDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VJFaceDetection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VJFaceDetection/Pods-VJFaceDetection.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70AE27A320D245EA00C613D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F291D839C5005452F073A90 /* libPods-VJFaceDetection.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70037F8B20D3C7C700E56449 /* Process */ = {
+			isa = PBXGroup;
+			children = (
+				70C766AF20D8A3A900197F07 /* ProcessManager.h */,
+				70C766B020D8A3A900197F07 /* ProcessManager.m */,
+				70037F8D20D3C7C700E56449 /* GPUImageBeautifyFilter.h */,
+				70037F8C20D3C7C700E56449 /* GPUImageBeautifyFilter.m */,
+			);
+			path = Process;
+			sourceTree = "<group>";
+		};
+		70037F9220D3C9F300E56449 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				70AE27B520D245EB00C613D7 /* Assets.xcassets */,
+				70AE27B720D245EB00C613D7 /* LaunchScreen.storyboard */,
+				70AE27BA20D245EB00C613D7 /* Info.plist */,
+				70AE27BB20D245EB00C613D7 /* main.m */,
+				70AE27B220D245EA00C613D7 /* VJFaceDetection.xcdatamodeld */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		70AE279D20D245EA00C613D7 = {
+			isa = PBXGroup;
+			children = (
+				70AE27A820D245EA00C613D7 /* VJFaceDetection */,
+				70AE27A720D245EA00C613D7 /* Products */,
+				C3ED5ADD124D02156B13389E /* Pods */,
+				7292BAB4DFFB8EDD5559EB2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70AE27A720D245EA00C613D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70AE27A620D245EA00C613D7 /* VJFaceDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70AE27A820D245EA00C613D7 /* VJFaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				70037F9220D3C9F300E56449 /* Support */,
+				70037F8B20D3C7C700E56449 /* Process */,
+				70AE27A920D245EA00C613D7 /* AppDelegate.h */,
+				70AE27AA20D245EA00C613D7 /* AppDelegate.m */,
+				70037F9020D3C7FB00E56449 /* CameraViewController.h */,
+				70037F8F20D3C7FB00E56449 /* CameraViewController.m */,
+				70AE27AF20D245EA00C613D7 /* Main.storyboard */,
+			);
+			path = VJFaceDetection;
+			sourceTree = "<group>";
+		};
+		7292BAB4DFFB8EDD5559EB2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B62404455D99EEAE6C150317 /* libPods-VJFaceDetection.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3ED5ADD124D02156B13389E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2C94B0DC6FA7591EEC6D93F /* Pods-VJFaceDetection.debug.xcconfig */,
+				49392A9DC5F40143EA16C942 /* Pods-VJFaceDetection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70AE27A520D245EA00C613D7 /* VJFaceDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE27BF20D245EB00C613D7 /* Build configuration list for PBXNativeTarget "VJFaceDetection" */;
+			buildPhases = (
+				E2AD98A4F0C2438E8CF48F4E /* [CP] Check Pods Manifest.lock */,
+				70AE27A220D245EA00C613D7 /* Sources */,
+				70AE27A320D245EA00C613D7 /* Frameworks */,
+				70AE27A420D245EA00C613D7 /* Resources */,
+				9935926EFC2D7CF233FCE20D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VJFaceDetection;
+			productName = VJFaceDetection;
+			productReference = 70AE27A620D245EA00C613D7 /* VJFaceDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70AE279E20D245EA00C613D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Filelife;
+				TargetAttributes = {
+					70AE27A520D245EA00C613D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 70AE27A120D245EA00C613D7 /* Build configuration list for PBXProject "VJFaceDetection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70AE279D20D245EA00C613D7;
+			productRefGroup = 70AE27A720D245EA00C613D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70AE27A520D245EA00C613D7 /* VJFaceDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70AE27A420D245EA00C613D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE27B920D245EB00C613D7 /* LaunchScreen.storyboard in Resources */,
+				70AE27B620D245EB00C613D7 /* Assets.xcassets in Resources */,
+				70AE27B120D245EA00C613D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9935926EFC2D7CF233FCE20D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VJFaceDetection/Pods-VJFaceDetection-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VJFaceDetection/Pods-VJFaceDetection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AD98A4F0C2438E8CF48F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VJFaceDetection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70AE27A220D245EA00C613D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE27B420D245EA00C613D7 /* VJFaceDetection.xcdatamodeld in Sources */,
+				70037F9120D3C7FB00E56449 /* CameraViewController.m in Sources */,
+				70037F8E20D3C7C700E56449 /* GPUImageBeautifyFilter.m in Sources */,
+				70AE27BC20D245EB00C613D7 /* main.m in Sources */,
+				70AE27AB20D245EA00C613D7 /* AppDelegate.m in Sources */,
+				70C766B120D8A3A900197F07 /* ProcessManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70AE27AF20D245EA00C613D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70AE27B020D245EA00C613D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70AE27B720D245EB00C613D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70AE27B820D245EB00C613D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70AE27BD20D245EB00C613D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70AE27BE20D245EB00C613D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70AE27C020D245EB00C613D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C94B0DC6FA7591EEC6D93F /* Pods-VJFaceDetection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW34M25ZQM;
+				INFOPLIST_FILE = "$(SRCROOT)/VJFaceDetection/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Filelife.VJFaceDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70AE27C120D245EB00C613D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49392A9DC5F40143EA16C942 /* Pods-VJFaceDetection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW34M25ZQM;
+				INFOPLIST_FILE = "$(SRCROOT)/VJFaceDetection/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Filelife.VJFaceDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70AE27A120D245EA00C613D7 /* Build configuration list for PBXProject "VJFaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE27BD20D245EB00C613D7 /* Debug */,
+				70AE27BE20D245EB00C613D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE27BF20D245EB00C613D7 /* Build configuration list for PBXNativeTarget "VJFaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE27C020D245EB00C613D7 /* Debug */,
+				70AE27C120D245EB00C613D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70AE27B220D245EA00C613D7 /* VJFaceDetection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				70AE27B320D245EA00C613D7 /* VJFaceDetection.xcdatamodel */,
+			);
+			currentVersion = 70AE27B320D245EA00C613D7 /* VJFaceDetection.xcdatamodel */;
+			path = VJFaceDetection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 70AE279E20D245EA00C613D7 /* Project object */;
+}
