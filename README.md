@@ -4,7 +4,7 @@
 GPUImage作为目前各大美颜类AppiOS端的主要的相机框架，具有良好的扩展性与定制性。常见实时面部贴图功能，都可以基于GPUImage+人脸识别库来进行完成。 但是在不具高效的有人脸边缘检测库的时候，个人开发者主要可以采用的是苹果爸爸提供给的CoreImage库。Ps：其实CoreImage也不是特别好用，因为对人脸边缘的检测还是有些不足，iPhoneX+Vision Framework）。  
 
 本仓库完成的效果如下图，对实时采集画面中的人脸进行跟踪并且进行局部滤镜渲染。
-![1529406072280.gif](https://upload-images.jianshu.io/upload_images/1647887-901a78038daede7c.gif?imageMogr2/auto-orient/strip)
+![效果图.gif](/pic.gif)
 
 #### GPUImage 
 鉴于部分开发内容需要用到GPUImage基础的滤镜功能，如果没有基础可以移步：
